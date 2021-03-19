@@ -1,0 +1,26 @@
+.feedback {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: #18bda1;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: orange;
+  transform: scale(1.05);
+  border: none;
+  outline: none;
+}
